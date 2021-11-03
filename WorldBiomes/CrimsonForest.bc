@@ -216,6 +216,7 @@ Registry(minecraft:crimson_forest_vegetation)
 Registry(minecraft:crimson_fungi)
 Registry(minecraft:glowstone)
 Registry(minecraft:glowstone_extra)
+Registry(minecraft:weeping_vines)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

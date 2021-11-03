@@ -216,6 +216,7 @@ Registry(minecraft:warped_forest_vegetation)
 Registry(minecraft:warped_fungi)
 Registry(minecraft:glowstone)
 Registry(minecraft:glowstone_extra)
+Registry(minecraft:twisting_vines)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
