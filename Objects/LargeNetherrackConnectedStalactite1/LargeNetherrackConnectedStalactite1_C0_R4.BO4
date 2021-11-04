@@ -1,0 +1,156 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(5,113,-7,minecraft:netherrack)
+B(5,114,-7,minecraft:netherrack)
+B(5,114,-6,minecraft:netherrack)
+B(6,111,-7,minecraft:netherrack)
+B(6,112,-7,minecraft:netherrack)
+B(6,113,-7,minecraft:netherrack)
+B(6,114,-7,minecraft:netherrack)
+B(6,112,-6,minecraft:netherrack)
+B(6,113,-6,minecraft:netherrack)
+B(6,114,-6,minecraft:netherrack)
+B(6,113,-5,minecraft:netherrack)
+B(6,114,-5,minecraft:netherrack)
+B(6,114,-4,minecraft:netherrack)
+B(7,109,-7,minecraft:netherrack)
+B(7,110,-7,minecraft:netherrack)
+B(7,111,-7,minecraft:netherrack)
+B(7,112,-7,minecraft:netherrack)
+B(7,113,-7,minecraft:netherrack)
+B(7,114,-7,minecraft:netherrack)
+B(7,110,-6,minecraft:netherrack)
+B(7,111,-6,minecraft:netherrack)
+B(7,112,-6,minecraft:netherrack)
+B(7,113,-6,minecraft:netherrack)
+B(7,114,-6,minecraft:netherrack)
+B(7,111,-5,minecraft:netherrack)
+B(7,112,-5,minecraft:netherrack)
+B(7,113,-5,minecraft:netherrack)
+B(7,114,-5,minecraft:netherrack)
+B(7,112,-4,minecraft:netherrack)
+B(7,113,-4,minecraft:netherrack)
+B(7,114,-4,minecraft:netherrack)
+B(7,114,-3,minecraft:netherrack)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,LargeNetherrackConnectedStalactite1_C1_R4,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

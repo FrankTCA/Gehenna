@@ -81,7 +81,7 @@ VolatilityWeight2: 0.45
 
 DisableBiomeHeight: false
 
-CustomHeightControl: 100.0, 100, 100.0, 0.0, -50.0, -100.0, -150.0, -200.0, -220.0, -230.0, -240.0, -250.0, -300.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -480.0, -478.0, -475.0, -470.0, -463.0, -455.0, -450.0, -445.0, 0.0, 0.0, 50.0, 100.0
+CustomHeightControl: 100.0, 100, 100.0, 0.0, -50.0, -100.0, -150.0, -200.0, -220.0, -230.0, -240.0, -250.0, -300.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -480.0, -478.0, -475.0, -470.0, -463.0, -455.0, -450.0, -445.0, 0.0, 0.0, 50.0, 100.0, 100.0
 
 
 #######################################################################
@@ -209,6 +209,11 @@ Ore(minecraft:nether_gold_ore,9,20,100.0,0,63,minecraft:netherrack)
 Liquid(minecraft:lava,10,100.0,8,255,minecraft:netherrack)
 SmallLake(minecraft:lava,2,1.0,8,255)
 SmallLake(minecraft:lava,2,8.0,6,255)
+CustomStructure(LargeNetherrackConnectedStalactite1,0.0)
+CustomStructure(GiantNetherrackStalactite1,0.0)
+CustomStructure(GiantNetherrackStalacmite1,0.0)
+CustomStructure(NetherrackWall1,0.0)
+CustomStructure(UpsideDownNetherrackWall1,0.0)
 SurfacePatch(minecraft:netherrack,minecraft:air,0,254,minecraft:crimson_nylium)
 Grass(minecraft:crimson_roots,NotGrouped,10,40,minecraft:crimson_nylium)
 Grass(minecraft:crimson_fungi,NotGrouped,5,40,minecraft:crimson_nylium)

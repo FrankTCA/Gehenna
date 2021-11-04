@@ -1,0 +1,160 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,86,-7,minecraft:netherrack)
+B(-8,87,-7,minecraft:netherrack)
+B(-8,88,-7,minecraft:netherrack)
+B(-8,89,-7,minecraft:netherrack)
+B(-8,90,-7,minecraft:netherrack)
+B(-8,86,-6,minecraft:netherrack)
+B(-8,87,-6,minecraft:netherrack)
+B(-8,88,-6,minecraft:netherrack)
+B(-8,89,-6,minecraft:netherrack)
+B(-8,90,-6,minecraft:netherrack)
+B(-8,90,0,minecraft:netherrack)
+B(-7,87,-7,minecraft:netherrack)
+B(-7,88,-7,minecraft:netherrack)
+B(-7,89,-7,minecraft:netherrack)
+B(-7,90,-7,minecraft:netherrack)
+B(-7,89,0,minecraft:netherrack)
+B(-7,90,0,minecraft:blackstone)
+B(-7,90,1,minecraft:netherrack)
+B(-6,90,-7,minecraft:netherrack)
+B(-6,88,0,minecraft:netherrack)
+B(-6,89,0,minecraft:blackstone)
+B(-6,90,0,minecraft:blackstone)
+B(-6,90,1,minecraft:netherrack)
+B(-5,90,0,minecraft:netherrack)
+B(2,89,8,minecraft:netherrack)
+B(2,90,8,minecraft:blackstone)
+B(3,89,8,minecraft:netherrack)
+B(3,90,8,minecraft:blackstone)
+B(4,89,8,minecraft:netherrack)
+B(4,90,8,minecraft:blackstone)
+B(5,89,8,minecraft:netherrack)
+B(5,90,8,minecraft:blackstone)
+B(6,89,8,minecraft:netherrack)
+B(6,90,8,minecraft:blackstone)
+B(7,90,8,minecraft:netherrack)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,UpsideDownNetherrackWall1_C1_R5,NORTH,100.0,0)
+Branch(0,0,16,true,UpsideDownNetherrackWall1_C0_R6,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
