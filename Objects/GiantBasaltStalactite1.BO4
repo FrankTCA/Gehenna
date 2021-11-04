@@ -79,7 +79,7 @@ ReplaceAbove: BASALT
 
 ReplaceBelow: 
 
-ReplaceWithBiomeBlocks: true
+ReplaceWithBiomeBlocks: false
 
 ReplaceWithSurfaceBlock: BASALT
 
@@ -89,7 +89,7 @@ ReplaceWithStoneBlock: BLACKSTONE
 
 SmoothRadius: 30
 
-SmoothHeightOffset: 40
+SmoothHeightOffset: 35
 
 SmoothStartTop: true
 

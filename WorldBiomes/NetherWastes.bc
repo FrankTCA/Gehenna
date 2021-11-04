@@ -221,6 +221,8 @@ CustomStructure(NetherrackWall1,100.0)
 CustomStructure(UpsideDownNetherrackWall1,100.0)
 CustomStructure(BasaltWall1,0.0)
 CustomStructure(UpsideDownBasaltWall1,0.0)
+CustomStructure(NetherrackVolcano1,100.0)
+CustomStructure(BasaltVolcano1,0.0)
 Registry(minecraft:glowstone)
 Registry(minecraft:glowstone_extra)
 

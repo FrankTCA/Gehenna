@@ -79,7 +79,7 @@ ReplaceAbove:
 
 ReplaceBelow: NETHERRACK
 
-ReplaceWithBiomeBlocks: true
+ReplaceWithBiomeBlocks: false
 
 ReplaceWithSurfaceBlock: NETHERRACK
 

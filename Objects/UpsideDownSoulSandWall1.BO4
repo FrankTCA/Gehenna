@@ -79,7 +79,7 @@ ReplaceAbove: SOUL_SAND
 
 ReplaceBelow: 
 
-ReplaceWithBiomeBlocks: true
+ReplaceWithBiomeBlocks: false
 
 ReplaceWithSurfaceBlock: SOUL_SAND
 

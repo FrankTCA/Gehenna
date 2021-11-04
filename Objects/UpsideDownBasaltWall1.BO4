@@ -79,7 +79,7 @@ ReplaceAbove: BASALT
 
 ReplaceBelow: 
 
-ReplaceWithBiomeBlocks: true
+ReplaceWithBiomeBlocks: false
 
 ReplaceWithSurfaceBlock: BASALT
 
