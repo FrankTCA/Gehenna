@@ -161,9 +161,9 @@ FoliageColor: #FFFFFF
 
 FoliageColorControl: 
 
-FogColor: #000000
+FogColor: #330808
 
-FogDensity: 0.0
+FogDensity: 0.7
 
 WaterFogColor: #000000
 
