@@ -30,9 +30,9 @@ UseCenterForHighestBlock: true
 # Height Limits for the BO4. #
 ##############################
 
-MinHeight: 80
+MinHeight: 50
 
-MaxHeight: 95
+MaxHeight: 65
 
 InheritBO3: 
 
