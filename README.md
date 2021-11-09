@@ -11,7 +11,7 @@ If you wish to build a presetpacker jar from source, I have another repository t
 ```
 git clone --recursive https://github.com/FrankTCA/Nether365-WorldPacker.git
 cd Nether365-WorldPacker
-# If you want the latest commit (unstable), run the following command. You will not recieve support for any issues this may cause.
+# If you want the latest commit (unstable), run the following commands. You will not recieve support for any issues this may cause.
 cd Presets/Nether365
 git pull origin 1.16.5
 cd ../..
