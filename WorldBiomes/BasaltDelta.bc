@@ -1,8 +1,3 @@
-# ------------------------------------------------------------------- #
-# "THE I WOULD LICENSE THIS UNDER BEER-WARE BUT I DON'T DRINK SO I'LL HAVE A DOUGHNUT INSTEAD LICENSE"
-# <frank@infotoast.org> write this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a doughnut in return.
-# Frank from Info Toast
-# ------------------------------------------------------------------- #
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -90,7 +85,7 @@ CustomHeightControl: 100.0, 70.0, 50.0, 30.0, 20.0, 20.0, 10.0, 10.0, -80.0, -10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-RiverBiome:
+RiverBiome: 
 
 
 #######################################################################
@@ -145,7 +140,7 @@ UseFrozenOceanTemperature: false
 
 BiomeWetness: 0.0
 
-SkyColor: #7685F70
+SkyColor: #7BA5FF
 
 WaterColor: #FFFFFF
 
@@ -181,7 +176,7 @@ ReplaceCurrentMusic: false
 
 AmbientSound: 
 
-MoodSound:
+MoodSound: 
 
 MoodSoundDelay: 6000
 
@@ -224,13 +219,13 @@ CustomStructure(BasaltWall2,100.0)
 CustomStructure(UpsideDownBasaltWall1,100.0)
 CustomStructure(BasaltVolcano1,100.0)
 CustomStructure(BasaltVolcano2,100.0)
-BasaltColumn(minecraft:basalt,3,60,6,3,7,5,1,255,minecraft:basalt)
-Registry(minecraft:glowstone)
-Registry(minecraft:glowstone_extra)
+BasaltColumn(minecraft:basalt,3,60.0,5,3,5,5,1,255,minecraft:basalt)
+Registry(minecraft:glowstone,VEGETAL_DECORATION)
+Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
-# |                         Sapling resource                        | #
+# |                             Saplings                            | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
