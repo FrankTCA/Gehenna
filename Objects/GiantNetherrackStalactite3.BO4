@@ -75,7 +75,7 @@ HeightOffset: 0
 
 RemoveAir: true
 
-ReplaceAbove: 
+ReplaceAbove: NETHERRACK
 
 ReplaceBelow: 
 

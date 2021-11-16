@@ -77,7 +77,7 @@ RemoveAir: true
 
 ReplaceAbove: 
 
-ReplaceBelow: 
+ReplaceBelow: NETHERRACK
 
 ReplaceWithBiomeBlocks: false
 
