@@ -172,17 +172,17 @@ ParticleType:
 
 ParticleProbability: 0.118093334
 
-Music: 
+Music: minecraft:music.nether.nether_wastes
 
 MusicMinDelay: 0
 
 MusicMaxDelay: 0
 
-ReplaceCurrentMusic: false
+ReplaceCurrentMusic: true
 
-AmbientSound: 
+AmbientSound: minecraft:ambient.nether_wastes.loop
 
-MoodSound: 
+MoodSound: minecraft:ambient.nether_wastes.mood
 
 MoodSoundDelay: 6000
 
@@ -190,7 +190,7 @@ MoodSearchRange: 8
 
 MoodOffset: 2.0
 
-AdditionsSound: 
+AdditionsSound: minecraft:ambient.nether_wastes.additions
 
 AdditionsTickChance: 0.0
 
