@@ -1,0 +1,129 @@
+# ------------------------------------------------------------------- #
+# "THE I WOULD LICENSE THIS UNDER BEER-WARE BUT I DON'T DRINK SO I'LL HAVE A DOUGHNUT INSTEAD LICENSE"
+# <frank@infotoast.org> wrote this file.  As long as you retain this notice you
+# can do whatever you want with this stuff. If we meet some day, and you think
+# this stuff is worth it, you can buy me a doughnut in return.
+# ------------------------------------------------------------------- #
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Frank
+
+Description: Small glowstone spike
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 5
+
+Rarity: 100.0
+
+MaxSpawn: 3
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 50
+
+MaxHeight: 65
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: minecraft:air
+
+MaxPercentageOutsideSourceBlock: 20
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-1,0,-1,minecraft:glowstone)
+B(-1,0,0,minecraft:glowstone)
+B(-1,1,0,minecraft:glowstone)
+B(-1,2,0,minecraft:glowstone)
+B(-1,0,1,minecraft:glowstone)
+B(0,0,-1,minecraft:glowstone)
+B(0,1,-1,minecraft:glowstone)
+B(0,2,-1,minecraft:glowstone)
+B(0,0,0,minecraft:glowstone)
+B(0,1,0,minecraft:glowstone)
+B(0,2,0,minecraft:glowstone)
+B(0,3,0,minecraft:glowstone)
+B(0,4,0,minecraft:glowstone)
+B(0,0,1,minecraft:glowstone)
+B(0,1,1,minecraft:glowstone)
+B(0,2,1,minecraft:glowstone)
+B(1,0,-1,minecraft:glowstone)
+B(1,0,0,minecraft:glowstone)
+B(1,1,0,minecraft:glowstone)
+B(1,2,0,minecraft:glowstone)
+B(1,0,1,minecraft:glowstone)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheckNot(0,-1,0,minecraft:air)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
