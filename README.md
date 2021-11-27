@@ -13,7 +13,7 @@ git clone --recursive https://github.com/FrankTCA/Gehenna-WorldPacker.git
 cd Gehenna-WorldPacker
 # If you want the latest commit (unstable), run the following commands. You will not recieve support for any issues this may cause.
 cd Presets/Nether365
-git pull origin cpt-2
+git pull origin cpt-3
 cd ../..
 # Make sure your java version is set to Java 8
 export JAVA_HOME=/path/to/jdk-8
