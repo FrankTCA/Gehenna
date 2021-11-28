@@ -247,7 +247,6 @@ CustomStructure(SoulSandVolcano2,1.0E-6)
 CustomStructure(BlackstoneChain1,10.0)
 CustomStructure(BlackstoneChain2,10.0)
 CustomStructure(BlackstoneChain3,10.0)
-CustomStructure(BlackstoneColleseum1,100.0)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
