@@ -1,0 +1,188 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,138,-7,minecraft:netherrack)
+B(-8,139,-7,minecraft:netherrack)
+B(-8,51,-5,minecraft:blackstone)
+B(-8,52,-5,minecraft:blackstone)
+B(-8,53,-5,minecraft:blackstone)
+B(-8,54,-4,minecraft:blackstone)
+B(-8,60,-1,minecraft:blackstone)
+B(-8,61,-1,minecraft:blackstone)
+B(-8,62,-1,minecraft:blackstone)
+B(-8,63,0,minecraft:blackstone)
+B(-8,69,3,minecraft:blackstone)
+B(-8,70,3,minecraft:blackstone)
+B(-8,71,3,minecraft:blackstone)
+B(-8,72,4,minecraft:blackstone)
+B(-8,78,7,minecraft:blackstone)
+B(-8,79,7,minecraft:blackstone)
+B(-8,80,7,minecraft:blackstone)
+B(-8,81,8,minecraft:blackstone)
+B(-7,46,-7,minecraft:blackstone)
+B(-7,139,-7,minecraft:netherrack)
+B(-7,50,-6,minecraft:blackstone)
+B(-7,55,-3,minecraft:blackstone)
+B(-7,59,-2,minecraft:blackstone)
+B(-7,64,1,minecraft:blackstone)
+B(-7,68,2,minecraft:blackstone)
+B(-7,73,5,minecraft:blackstone)
+B(-7,77,6,minecraft:blackstone)
+B(-6,47,-7,minecraft:glowstone)
+B(-6,48,-7,minecraft:chain)
+B(-6,49,-7,minecraft:glowstone)
+B(-6,139,-7,minecraft:netherrack)
+B(-6,56,-3,minecraft:glowstone)
+B(-6,57,-3,minecraft:chain)
+B(-6,58,-3,minecraft:glowstone)
+B(-6,65,1,minecraft:glowstone)
+B(-6,66,1,minecraft:chain)
+B(-6,67,1,minecraft:glowstone)
+B(-6,74,5,minecraft:glowstone)
+B(-6,75,5,minecraft:chain)
+B(-6,76,5,minecraft:glowstone)
+B(-5,50,-7,minecraft:blackstone)
+B(-5,55,-4,minecraft:blackstone)
+B(-5,59,-3,minecraft:blackstone)
+B(-5,64,0,minecraft:blackstone)
+B(-5,68,1,minecraft:blackstone)
+B(-5,73,4,minecraft:blackstone)
+B(-5,77,5,minecraft:blackstone)
+B(-5,82,8,minecraft:blackstone)
+B(-4,51,-6,minecraft:blackstone)
+B(-4,52,-6,minecraft:blackstone)
+B(-4,53,-6,minecraft:blackstone)
+B(-4,54,-5,minecraft:blackstone)
+B(-4,60,-2,minecraft:blackstone)
+B(-4,61,-2,minecraft:blackstone)
+B(-4,62,-2,minecraft:blackstone)
+B(-4,63,-1,minecraft:blackstone)
+B(-4,69,2,minecraft:blackstone)
+B(-4,70,2,minecraft:blackstone)
+B(-4,71,2,minecraft:blackstone)
+B(-4,72,3,minecraft:blackstone)
+B(-4,78,6,minecraft:blackstone)
+B(-4,79,6,minecraft:blackstone)
+B(-4,80,6,minecraft:blackstone)
+B(-4,81,7,minecraft:blackstone)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,16,true,BlackstoneChain3_C0_R3,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
