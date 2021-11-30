@@ -5,6 +5,8 @@ Right now, we're still in alpha phase. Go to the OTG discord to download the lat
 
 Right now, we are still working on compatibility with other mods. There is some very basic compatibility code in place, but there has been no testing done yet. Stay tuned for that.
 
+Discord: https://discord.gg/YmRXXkkRBu
+
 ## Building
 If you wish to build a presetpacker jar from source, I have another repository that's a fork of PG85/WorldPacker for you to use.
 
