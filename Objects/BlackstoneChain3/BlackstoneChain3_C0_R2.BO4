@@ -107,8 +107,8 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-B(-8,138,-7,minecraft:netherrack)
-B(-8,139,-7,minecraft:netherrack)
+
+
 B(-8,51,-5,minecraft:blackstone)
 B(-8,52,-5,minecraft:blackstone)
 B(-8,53,-5,minecraft:blackstone)
@@ -126,7 +126,7 @@ B(-8,79,7,minecraft:blackstone)
 B(-8,80,7,minecraft:blackstone)
 B(-8,81,8,minecraft:blackstone)
 B(-7,46,-7,minecraft:blackstone)
-B(-7,139,-7,minecraft:netherrack)
+
 B(-7,50,-6,minecraft:blackstone)
 B(-7,55,-3,minecraft:blackstone)
 B(-7,59,-2,minecraft:blackstone)
@@ -137,7 +137,7 @@ B(-7,77,6,minecraft:blackstone)
 B(-6,47,-7,minecraft:glowstone)
 B(-6,48,-7,minecraft:chain)
 B(-6,49,-7,minecraft:glowstone)
-B(-6,139,-7,minecraft:netherrack)
+
 B(-6,56,-3,minecraft:glowstone)
 B(-6,57,-3,minecraft:chain)
 B(-6,58,-3,minecraft:glowstone)
