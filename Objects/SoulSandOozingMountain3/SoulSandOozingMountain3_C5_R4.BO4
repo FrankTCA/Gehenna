@@ -1,0 +1,332 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,0,-7,minecraft:soul_sand)
+B(-8,1,-7,minecraft:soul_sand)
+B(-8,2,-7,minecraft:soul_sand)
+B(-8,3,-7,minecraft:soul_sand)
+B(-8,4,-7,minecraft:soul_sand)
+B(-8,0,-6,minecraft:soul_sand)
+B(-8,1,-6,minecraft:soul_sand)
+B(-8,2,-6,minecraft:soul_sand)
+B(-8,3,-6,minecraft:soul_sand)
+B(-8,4,-6,minecraft:soul_sand)
+B(-8,0,-5,minecraft:soul_sand)
+B(-8,1,-5,minecraft:soul_sand)
+B(-8,2,-5,minecraft:soul_sand)
+B(-8,3,-5,minecraft:soul_sand)
+B(-8,4,-5,minecraft:soul_sand)
+B(-8,0,-4,minecraft:soul_sand)
+B(-8,1,-4,minecraft:soul_sand)
+B(-8,2,-4,minecraft:soul_sand)
+B(-8,3,-4,minecraft:soul_sand)
+B(-8,0,-3,minecraft:soul_sand)
+B(-8,1,-3,minecraft:soul_sand)
+B(-8,2,-3,minecraft:soul_sand)
+B(-8,3,-3,minecraft:soul_sand)
+B(-8,0,-2,minecraft:soul_sand)
+B(-8,1,-2,minecraft:soul_sand)
+B(-8,2,-2,minecraft:soul_sand)
+B(-8,0,-1,minecraft:soul_sand)
+B(-8,0,0,minecraft:lava[level=3])
+B(-8,0,1,minecraft:lava[level=4])
+B(-8,0,2,minecraft:lava[level=5])
+B(-8,0,3,minecraft:lava[level=6])
+B(-8,0,4,minecraft:lava[level=7])
+B(-7,0,-7,minecraft:soul_sand)
+B(-7,1,-7,minecraft:soul_sand)
+B(-7,2,-7,minecraft:soul_sand)
+B(-7,3,-7,minecraft:soul_sand)
+B(-7,4,-7,minecraft:soul_sand)
+B(-7,0,-6,minecraft:soul_sand)
+B(-7,1,-6,minecraft:soul_sand)
+B(-7,2,-6,minecraft:soul_sand)
+B(-7,3,-6,minecraft:soul_sand)
+B(-7,4,-6,minecraft:soul_sand)
+B(-7,0,-5,minecraft:soul_sand)
+B(-7,1,-5,minecraft:soul_sand)
+B(-7,2,-5,minecraft:soul_sand)
+B(-7,3,-5,minecraft:soul_sand)
+B(-7,4,-5,minecraft:soul_sand)
+B(-7,0,-4,minecraft:soul_sand)
+B(-7,1,-4,minecraft:soul_sand)
+B(-7,2,-4,minecraft:soul_sand)
+B(-7,3,-4,minecraft:soul_sand)
+B(-7,4,-4,minecraft:soul_sand)
+B(-7,0,-3,minecraft:soul_sand)
+B(-7,1,-3,minecraft:soul_sand)
+B(-7,2,-3,minecraft:soul_sand)
+B(-7,3,-3,minecraft:soul_sand)
+B(-7,0,-2,minecraft:soul_sand)
+B(-7,1,-2,minecraft:soul_sand)
+B(-7,2,-2,minecraft:soul_sand)
+B(-7,0,-1,minecraft:soul_sand)
+B(-7,1,-1,minecraft:soul_sand)
+B(-7,0,0,minecraft:lava[level=4])
+B(-7,0,1,minecraft:lava[level=5])
+B(-7,0,2,minecraft:lava[level=6])
+B(-7,0,3,minecraft:lava[level=7])
+B(-6,0,-7,minecraft:soul_sand)
+B(-6,1,-7,minecraft:soul_sand)
+B(-6,2,-7,minecraft:soul_sand)
+B(-6,3,-7,minecraft:soul_sand)
+B(-6,4,-7,minecraft:soul_sand)
+B(-6,0,-6,minecraft:soul_sand)
+B(-6,1,-6,minecraft:soul_sand)
+B(-6,2,-6,minecraft:soul_sand)
+B(-6,3,-6,minecraft:soul_sand)
+B(-6,4,-6,minecraft:soul_sand)
+B(-6,0,-5,minecraft:soul_sand)
+B(-6,1,-5,minecraft:soul_sand)
+B(-6,2,-5,minecraft:soul_sand)
+B(-6,3,-5,minecraft:soul_sand)
+B(-6,4,-5,minecraft:soul_sand)
+B(-6,0,-4,minecraft:soul_sand)
+B(-6,1,-4,minecraft:soul_sand)
+B(-6,2,-4,minecraft:soul_sand)
+B(-6,3,-4,minecraft:soul_sand)
+B(-6,4,-4,minecraft:soul_sand)
+B(-6,0,-3,minecraft:soul_sand)
+B(-6,1,-3,minecraft:soul_sand)
+B(-6,2,-3,minecraft:soul_sand)
+B(-6,3,-3,minecraft:soul_sand)
+B(-6,0,-2,minecraft:soul_sand)
+B(-6,1,-2,minecraft:soul_sand)
+B(-6,2,-2,minecraft:soul_sand)
+B(-6,0,-1,minecraft:soul_sand)
+B(-6,1,-1,minecraft:soul_sand)
+B(-6,0,0,minecraft:lava[level=5])
+B(-6,0,1,minecraft:lava[level=6])
+B(-6,0,2,minecraft:lava[level=7])
+B(-5,0,-7,minecraft:soul_sand)
+B(-5,1,-7,minecraft:soul_sand)
+B(-5,2,-7,minecraft:soul_sand)
+B(-5,3,-7,minecraft:soul_sand)
+B(-5,4,-7,minecraft:soul_sand)
+B(-5,0,-6,minecraft:soul_sand)
+B(-5,1,-6,minecraft:soul_sand)
+B(-5,2,-6,minecraft:soul_sand)
+B(-5,3,-6,minecraft:soul_sand)
+B(-5,4,-6,minecraft:soul_sand)
+B(-5,0,-5,minecraft:soul_sand)
+B(-5,1,-5,minecraft:soul_sand)
+B(-5,2,-5,minecraft:soul_sand)
+B(-5,3,-5,minecraft:soul_sand)
+B(-5,4,-5,minecraft:soul_sand)
+B(-5,0,-4,minecraft:soul_sand)
+B(-5,1,-4,minecraft:soul_sand)
+B(-5,2,-4,minecraft:soul_sand)
+B(-5,3,-4,minecraft:soul_sand)
+B(-5,4,-4,minecraft:soul_sand)
+B(-5,0,-3,minecraft:soul_sand)
+B(-5,1,-3,minecraft:soul_sand)
+B(-5,2,-3,minecraft:soul_sand)
+B(-5,3,-3,minecraft:soul_sand)
+B(-5,0,-2,minecraft:soul_sand)
+B(-5,1,-2,minecraft:soul_sand)
+B(-5,2,-2,minecraft:soul_sand)
+B(-5,0,-1,minecraft:soul_sand)
+B(-5,1,-1,minecraft:soul_sand)
+B(-5,0,0,minecraft:lava[level=6])
+B(-5,0,1,minecraft:lava[level=7])
+B(-4,0,-7,minecraft:soul_sand)
+B(-4,1,-7,minecraft:soul_sand)
+B(-4,2,-7,minecraft:soul_sand)
+B(-4,3,-7,minecraft:soul_sand)
+B(-4,4,-7,minecraft:soul_sand)
+B(-4,0,-6,minecraft:soul_sand)
+B(-4,1,-6,minecraft:soul_sand)
+B(-4,2,-6,minecraft:soul_sand)
+B(-4,3,-6,minecraft:soul_sand)
+B(-4,4,-6,minecraft:soul_sand)
+B(-4,0,-5,minecraft:soul_sand)
+B(-4,1,-5,minecraft:soul_sand)
+B(-4,2,-5,minecraft:soul_sand)
+B(-4,3,-5,minecraft:soul_sand)
+B(-4,4,-5,minecraft:soul_sand)
+B(-4,0,-4,minecraft:soul_sand)
+B(-4,1,-4,minecraft:soul_sand)
+B(-4,2,-4,minecraft:soul_sand)
+B(-4,3,-4,minecraft:soul_sand)
+B(-4,0,-3,minecraft:soul_sand)
+B(-4,1,-3,minecraft:soul_sand)
+B(-4,2,-3,minecraft:soul_sand)
+B(-4,3,-3,minecraft:soul_sand)
+B(-4,0,-2,minecraft:soul_sand)
+B(-4,1,-2,minecraft:soul_sand)
+B(-4,2,-2,minecraft:soul_sand)
+B(-4,0,-1,minecraft:soul_sand)
+B(-4,0,0,minecraft:lava[level=7])
+B(-3,0,-7,minecraft:soul_sand)
+B(-3,1,-7,minecraft:soul_sand)
+B(-3,2,-7,minecraft:soul_sand)
+B(-3,3,-7,minecraft:soul_sand)
+B(-3,4,-7,minecraft:soul_sand)
+B(-3,0,-6,minecraft:soul_sand)
+B(-3,1,-6,minecraft:soul_sand)
+B(-3,2,-6,minecraft:soul_sand)
+B(-3,3,-6,minecraft:soul_sand)
+B(-3,0,-5,minecraft:soul_sand)
+B(-3,1,-5,minecraft:soul_sand)
+B(-3,2,-5,minecraft:soul_sand)
+B(-3,3,-5,minecraft:soul_sand)
+B(-3,0,-4,minecraft:soul_sand)
+B(-3,1,-4,minecraft:soul_sand)
+B(-3,2,-4,minecraft:soul_sand)
+B(-3,3,-4,minecraft:soul_sand)
+B(-3,0,-3,minecraft:soul_sand)
+B(-3,1,-3,minecraft:soul_sand)
+B(-3,2,-3,minecraft:soul_sand)
+B(-3,0,-2,minecraft:soul_sand)
+B(-3,1,-2,minecraft:soul_sand)
+B(-2,0,-7,minecraft:soul_sand)
+B(-2,1,-7,minecraft:soul_sand)
+B(-2,2,-7,minecraft:soul_sand)
+B(-2,3,-7,minecraft:soul_sand)
+B(-2,0,-6,minecraft:soul_sand)
+B(-2,1,-6,minecraft:soul_sand)
+B(-2,2,-6,minecraft:soul_sand)
+B(-2,0,-5,minecraft:soul_sand)
+B(-2,1,-5,minecraft:soul_sand)
+B(-2,2,-5,minecraft:soul_sand)
+B(-2,0,-4,minecraft:soul_sand)
+B(-2,1,-4,minecraft:soul_sand)
+B(-2,2,-4,minecraft:soul_sand)
+B(-2,0,-3,minecraft:soul_sand)
+B(-2,1,-3,minecraft:soul_sand)
+B(-1,0,-7,minecraft:soul_sand)
+B(-1,1,-7,minecraft:soul_sand)
+B(-1,0,-6,minecraft:soul_sand)
+B(-1,1,-6,minecraft:soul_sand)
+B(-1,0,-5,minecraft:soul_sand)
+B(-1,1,-5,minecraft:soul_sand)
+B(-1,0,-4,minecraft:soul_sand)
+B(0,0,-7,minecraft:soul_sand)
+B(0,1,-7,minecraft:soul_sand)
+B(1,0,-7,minecraft:soul_sand)
+B(1,1,-7,minecraft:soul_sand)
+B(2,0,-7,minecraft:soul_sand)
+B(5,0,-7,minecraft:lava[level=7])
+B(6,0,-7,minecraft:lava[level=6])
+B(6,0,-6,minecraft:lava[level=7])
+B(7,0,-7,minecraft:lava[level=7])
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
