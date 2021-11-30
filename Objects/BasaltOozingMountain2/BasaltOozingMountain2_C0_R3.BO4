@@ -1,0 +1,157 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(6,0,-7,minecraft:basalt)
+B(6,1,-7,minecraft:basalt)
+B(6,2,-7,minecraft:basalt)
+B(6,3,-7,minecraft:basalt)
+B(6,0,-6,minecraft:basalt)
+B(6,1,-6,minecraft:basalt)
+B(6,0,-5,minecraft:basalt)
+B(6,1,-5,minecraft:basalt)
+B(6,0,-4,minecraft:basalt)
+B(6,1,-4,minecraft:basalt)
+B(6,0,-3,minecraft:basalt)
+B(7,0,-7,minecraft:basalt)
+B(7,1,-7,minecraft:basalt)
+B(7,2,-7,minecraft:basalt)
+B(7,3,-7,minecraft:basalt)
+B(7,4,-7,minecraft:basalt)
+B(7,5,-7,minecraft:basalt)
+B(7,0,-6,minecraft:basalt)
+B(7,1,-6,minecraft:basalt)
+B(7,2,-6,minecraft:basalt)
+B(7,3,-6,minecraft:basalt)
+B(7,4,-6,minecraft:basalt)
+B(7,0,-5,minecraft:basalt)
+B(7,1,-5,minecraft:basalt)
+B(7,2,-5,minecraft:basalt)
+B(7,0,-4,minecraft:basalt)
+B(7,1,-4,minecraft:basalt)
+B(7,2,-4,minecraft:basalt)
+B(7,0,-3,minecraft:basalt)
+B(7,1,-3,minecraft:basalt)
+B(7,2,-3,minecraft:basalt)
+B(7,0,-2,minecraft:basalt)
+B(7,1,-2,minecraft:basalt)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,BasaltOozingMountain2_C1_R3,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

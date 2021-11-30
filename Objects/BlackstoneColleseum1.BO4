@@ -26,7 +26,7 @@ SettingsMode: WriteDisable
 
 FixedRotation: 
 
-Frequency: 5
+Frequency: 1
 
 SpawnHeight: randomY
 
@@ -36,9 +36,9 @@ UseCenterForHighestBlock: true
 # Height Limits for the BO4. #
 ##############################
 
-MinHeight: 50
+MinHeight: 25
 
-MaxHeight: 65
+MaxHeight: 30
 
 InheritBO3: 
 
@@ -64,7 +64,7 @@ ReplacesBO3:
 
 MustBeInsideWorldBorders: false
 
-CanSpawnOnWater: true
+CanSpawnOnWater: false
 
 SpawnOnWaterOnly: false
 
@@ -78,7 +78,7 @@ RemoveAir: true
 
 ReplaceAbove: 
 
-ReplaceBelow: minecraft:blackstone
+ReplaceBelow: NETHERRACK
 
 ReplaceWithBiomeBlocks: false
 
@@ -88,7 +88,7 @@ ReplaceWithGroundBlock: DIRT
 
 ReplaceWithStoneBlock: STONE
 
-SmoothRadius: 10
+SmoothRadius: 0
 
 SmoothHeightOffset: 0
 
