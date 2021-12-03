@@ -26,16 +26,10 @@ export JAVA_HOME=/path/to/jdk-8
 
 It is also, of course, possible to simply put the preset in the Presets directory inside of the OpenTerrainGenerator config dir (config/OpenTerrainGenerator/Presets on Forge, plugins/OpenTerrainGenerator/Presets on Spigot).
 
-## Licensing
-If you want to use my work, you are freely able to. The license we use can pretty much be summed up to:
-1) Keep my license header on any files that have it.
-2) If you meet me in real life, you have to buy me a doughnut.
+## Contributions
 
-## Contributing
-We would love your contributions!
+Please reach out on the Gehenna Discord and ask permission before contributing, as this is a work of art and not all changes necessarily fit.
 
-If you wish to contribute, simply fork the repository and pull request the changes upstream when you're done.
+However, we would love for you to contibute and we will work with you to do so.
 
-This is, of course, a work of art, so we may not accept everything necessarily if it doesn't fit, so you may want to reach out to me before you put effort in.
-
-Any code that makes it into the repository will be given proper credit via the author line of any files that were contributed.
+Proper credit will be given on the author line of any files that are contributed.
