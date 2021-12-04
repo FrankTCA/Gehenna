@@ -20,7 +20,17 @@ You may not redistribute or resell the software.
 
 ### Source Code
 
-This product does provide the source code, but it is NOT legal to attempt to modify it, or attempt to read it using a program other than an official copy of OpenTerrainGenerator, or a copy of OpenTerrainGenerator provided by us, without express written permission provided beforehand.
+This product does provide the source code, but it is NOT legal to attempt to modify it, or attempt to read it using a program other than one of the OpenTerrainGenerator versions listed below, with the correct md5 checksum, without express written permission provided beforehand.
+
+#### Allowed OpenTerrainGenerator Binaries
+
+| Version           | Checksum                         |
+|-------------------|:--------------------------------:|
+| 1.16.5-0.1.5      | 023e5bfa95dcff52e889e5b1fbfba832 |
+| 1.16.5-0.1.6      | 2db5b9b2069f695a03e556223c5f6d52 |
+| 1.17.1-UNOFFICIAL | a81350d7dc7e6f2d4d86fb00664b67e7 |
+
+**NOTE:** These binaries are currently the only jars that support Gehenna cpt-4+ without bugs as well.
 
 ### Warranty
 
