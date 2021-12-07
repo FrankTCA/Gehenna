@@ -1,0 +1,150 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Frank
+
+Description: Mushroom that spawns in the underdark
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 2
+
+Rarity: 60.0
+
+MaxSpawn: 2
+
+RotateRandomly: true
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 50
+
+MaxHeight: 65
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: minecraft:air
+
+MaxBranchDepth: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: minecraft:air
+
+MaxPercentageOutsideSourceBlock: 15
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: false
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-3,7,-1,minecraft:purple_stained_glass)
+B(-3,7,0,minecraft:purple_stained_glass)
+B(-3,7,1,minecraft:purple_stained_glass)
+B(-2,7,-2,minecraft:purple_stained_glass)
+B(-2,8,-1,minecraft:purple_stained_glass)
+B(-2,8,0,minecraft:purple_stained_glass)
+B(-2,8,1,minecraft:purple_stained_glass)
+B(-2,7,2,minecraft:purple_stained_glass)
+B(-1,7,-3,minecraft:purple_stained_glass)
+B(-1,8,-2,minecraft:purple_stained_glass)
+B(-1,9,-1,minecraft:purple_stained_glass)
+B(-1,9,0,minecraft:purple_stained_glass)
+B(-1,9,1,minecraft:purple_stained_glass)
+B(-1,8,2,minecraft:purple_stained_glass)
+B(-1,7,3,minecraft:purple_stained_glass)
+B(0,7,-3,minecraft:purple_stained_glass)
+B(0,8,-2,minecraft:purple_stained_glass)
+B(0,9,-1,minecraft:purple_stained_glass)
+B(0,0,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,1,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,2,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,3,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,4,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,5,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,6,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,7,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=false,west=true])
+B(0,8,0,minecraft:mushroom_stem[down=false,east=true,north=true,south=true,up=true,west=true])
+B(0,9,0,minecraft:purple_stained_glass)
+B(0,10,0,minecraft:purple_stained_glass)
+B(0,9,1,minecraft:purple_stained_glass)
+B(0,8,2,minecraft:purple_stained_glass)
+B(0,7,3,minecraft:purple_stained_glass)
+B(1,7,-3,minecraft:purple_stained_glass)
+B(1,8,-2,minecraft:purple_stained_glass)
+B(1,9,-1,minecraft:purple_stained_glass)
+B(1,9,0,minecraft:purple_stained_glass)
+B(1,9,1,minecraft:purple_stained_glass)
+B(1,8,2,minecraft:purple_stained_glass)
+B(1,7,3,minecraft:purple_stained_glass)
+B(2,7,-2,minecraft:purple_stained_glass)
+B(2,8,-1,minecraft:purple_stained_glass)
+B(2,8,0,minecraft:purple_stained_glass)
+B(2,8,1,minecraft:purple_stained_glass)
+B(2,7,2,minecraft:purple_stained_glass)
+B(3,7,-1,minecraft:purple_stained_glass)
+B(3,7,0,minecraft:purple_stained_glass)
+B(3,7,1,minecraft:purple_stained_glass)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheckNot(0,-1,0,minecraft:air)
+BlockCheck(0,3,0,minecraft:air)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
