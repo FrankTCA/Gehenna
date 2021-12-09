@@ -1,16 +1,16 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
-# |                            BO4 object                           | #
+# |                            BO3 object                           | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Author: Frank
+Author: Bo3 BulkEdit
 
-Description: Obsidian mountain oozing lava
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
 
 SettingsMode: WriteDisable
-
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -18,95 +18,49 @@ SettingsMode: WriteDisable
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-FixedRotation: 
-
+IsOTGPlus: true
+Tree: true
 Frequency: 10
-
+Rarity: 100
+RotateRandomly: true
 SpawnHeight: randomY
-
-UseCenterForHighestBlock: true
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
 
 ##############################
-# Height Limits for the BO4. #
+# Height Limits for the BO3. #
 ##############################
 
 MinHeight: 50
-
 MaxHeight: 65
 
-InheritBO3: 
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
 
-InheritBO3Rotation: NORTH
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
 
-OverrideChildSettings: true
-
-OverrideParentHeight: false
-
-CanOverride: false
-
-BranchFrequency: 0
-
-BranchFrequencyGroup: 
-
-MustBeBelowOther: false
-
-MustBeInside: 
-
-CannotBeInside: 
-
-ReplacesBO3: 
-
-MustBeInsideWorldBorders: false
-
-CanSpawnOnWater: true
-
-SpawnOnWaterOnly: false
-
-SpawnUnderWater: false
-
-SpawnAtWaterLevel: false
-
-HeightOffset: 0
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
 
 RemoveAir: true
-
-ReplaceAbove: 
-
 ReplaceBelow: OBSIDIAN
-
 ReplaceWithBiomeBlocks: false
-
-ReplaceWithSurfaceBlock: OBSIDIAN
-
 ReplaceWithGroundBlock: OBSIDIAN
-
+ReplaceWithSurfaceBlock: OBSIDIAN
 ReplaceWithStoneBlock: OBSIDIAN
-
 SmoothRadius: 30
-
-SmoothHeightOffset: 0
-
-SmoothStartTop: false
-
-SmoothStartWood: false
-
 SmoothingSurfaceBlock: OBSIDIAN
-
 SmoothingGroundBlock: OBSIDIAN
-
-BO3Group: 
-
-IsSpawnPoint: false
-
-DoReplaceBlocks: true
-
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                              Blocks                             | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -114,11 +68,4 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Branch(0,0,0,true,ObsidianOozingMountain1_C0_R0,NORTH,100.0,0)
-
-#######################################################################
-# +-----------------------------------------------------------------+ #
-# |                             Entities                            | #
-# +-----------------------------------------------------------------+ #
-#######################################################################
-
+BR(0,0,0,true,ObsidianOozingMountain1_2x1,NORTH,100,0)

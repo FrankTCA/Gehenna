@@ -1,0 +1,116 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: true
+Tree: true
+Frequency: 10
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 50
+MaxHeight: 65
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RemoveAir: true
+ReplaceBelow: OBSIDIAN
+ReplaceWithBiomeBlocks: false
+ReplaceWithGroundBlock: OBSIDIAN
+ReplaceWithSurfaceBlock: OBSIDIAN
+ReplaceWithStoneBlock: OBSIDIAN
+SmoothRadius: 30
+SmoothingSurfaceBlock: OBSIDIAN
+SmoothingGroundBlock: OBSIDIAN
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RB(0,0,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(2,0,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(2,0,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(2,0,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(3,0,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,0,15,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,0,15,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+B(2,0,15,minecraft:lava[level=8])
+B(3,0,15,minecraft:lava[level=2])
+RB(0,1,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,1,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,1,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,1,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,1,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(2,1,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,1,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,1,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(2,1,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,1,15,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+B(1,1,15,minecraft:lava[level=8])
+B(2,1,15,minecraft:lava[level=2])
+RB(0,2,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,2,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,2,13,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,2,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(1,2,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,2,15,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+B(1,2,15,minecraft:lava[level=2])
+RB(0,3,14,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(0,3,15,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+

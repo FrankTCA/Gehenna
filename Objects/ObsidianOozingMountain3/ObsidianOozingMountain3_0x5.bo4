@@ -1,0 +1,350 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: true
+Tree: true
+Frequency: 10
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 50
+MaxHeight: 65
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                               OTG+                              | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RemoveAir: true
+ReplaceBelow: OBSIDIAN
+ReplaceWithBiomeBlocks: false
+ReplaceWithGroundBlock: OBSIDIAN
+ReplaceWithSurfaceBlock: OBSIDIAN
+ReplaceWithStoneBlock: OBSIDIAN
+SmoothRadius: 30
+SmoothingSurfaceBlock: OBSIDIAN
+SmoothingGroundBlock: OBSIDIAN
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RB(8,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(8,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,0,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,0,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,0,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,0,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,0,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(8,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(8,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,1,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,1,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,1,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,1,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,1,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,1,12,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(9,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,2,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,2,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,2,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,2,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,2,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,2,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,2,11,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,3,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,3,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,3,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,3,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(10,3,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,3,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,3,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,3,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,3,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,3,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,3,10,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,4,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,4,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,4,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(11,4,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,4,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,4,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(12,4,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,4,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(13,4,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,5,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,6,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,7,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,4,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,8,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,4,9,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,5,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,5,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,5,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,5,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(14,5,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,5,2,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,5,3,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,5,4,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,6,0,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+RB(15,6,1,minecraft:crying_obsidian,20,minecraft:obsidian,100)
+
