@@ -32,6 +32,8 @@ This product does provide the source code, but it is NOT legal to attempt to mod
 | 1.16.5-0.1.8      | 027762e03cacc895032c4e35d5771e5d |
 | 1.16.5-0.1.9      | 4db0bf25d1521be400c710215f1b3b6e |
 | 1.17.1-UNOFFICIAL | a81350d7dc7e6f2d4d86fb00664b67e7 |
+| 1.16.5-0.1.10     | 9cb2405ed4264c3ac6a17b8cb1ef847f |
+| 1.17.1-0.0.22     | 060ce22c8957bd7099e356a79732f9b4 |
 
 **NOTE:** These binaries are currently the only jars that support Gehenna cpt-4+ without bugs as well.
 
