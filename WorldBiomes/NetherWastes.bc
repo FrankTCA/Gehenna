@@ -255,6 +255,7 @@ CustomStructure(BasaltOozingMountain3,0.0)
 CustomStructure(SoulSandOozingMountain1,0.0)
 CustomStructure(SoulSandOozingMountain2,0.0)
 CustomStructure(SoulSandOozingMountain3,0.0)
+CustomObject(Skull)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
