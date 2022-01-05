@@ -228,7 +228,7 @@ CustomObject(QuartzSpike1,QuartzSpike2,QuartzSpike3,QuartzSpike4)
 CustomObject(SmallQuartzSpike1,SmallQuartzSpike2)
 CustomObject(UpsideDownQuartzSpike2,UpsideDownQuartzSpike3,UpsideDownQuartzSpike4)
 CustomObject(SmallUpsideDownQuartzSpike1,SmallUpsideDownQuartzSpike2)
-CustomObject(Skull)
+CustomObject(Skull,Skull2,Skull3)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
