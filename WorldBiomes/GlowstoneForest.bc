@@ -235,7 +235,7 @@ CustomObject(UpsideDownGlowstoneSpike3)
 CustomObject(UpsideDownGlowstoneSpike4)
 CustomObject(SmallUpsideDownGlowstoneSpike1)
 CustomObject(SmallUpsideDownGlowstoneSpike2)
-CustomObject(Skull)
+CustomObject(Skull,Skull2,Skull3)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
