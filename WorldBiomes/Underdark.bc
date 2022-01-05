@@ -224,7 +224,7 @@ CustomObject(FloatingObsidianBit4)
 CustomObject(FloatingObsidianBit5)
 CustomObject(UnderdarkMushroom1)
 CustomObject(UnderdarkMushroom2)
-CustomObject(Skull,Skull2,Skull3)
+CustomObject(Skull,Skull2,Skull3,Skull4)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
