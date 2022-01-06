@@ -1,0 +1,73 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: true
+Tree: false
+Frequency: 1
+Rarity: 100
+RotateRandomly: false
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 25
+MaxHeight: 30
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+B(7,2,13,minecraft:glowstone)
+RB(7,3,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(6,3,14,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(7,4,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,4,14,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(7,5,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,5,14,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(7,6,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,6,14,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(6,7,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,7,13,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+B(5,8,12,minecraft:glowstone)
+B(5,9,12,minecraft:chain[axis=y,waterlogged=false])
+B(5,10,12,minecraft:glowstone)
+RB(5,11,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(4,11,13,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,12,10,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,12,13,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,13,10,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,13,13,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(5,14,10,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,14,13,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(4,15,10,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,15,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+B(3,16,11,minecraft:glowstone)
+B(3,17,11,minecraft:chain[axis=y,waterlogged=false])
+B(3,18,11,minecraft:glowstone)
+RB(3,19,10,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(2,19,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,20,9,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,20,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,21,9,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,21,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(3,22,9,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,22,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(2,23,9,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,23,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+B(1,24,10,minecraft:glowstone)
+B(1,25,10,minecraft:chain[axis=y,waterlogged=false])
+B(1,26,10,minecraft:glowstone)
+RB(1,27,9,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(0,27,11,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,28,8,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,29,8,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(1,30,8,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+RB(0,31,8,minecraft:crying_obsidian,10,minecraft:obsidian,100)
+
