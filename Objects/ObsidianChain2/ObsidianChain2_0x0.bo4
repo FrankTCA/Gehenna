@@ -24,6 +24,8 @@ SourceBlocks: AIR
 MaxPercentageOutsideSourceBlock: 100
 OutsideSourceBlock: placeAnyway
 
+B(0,750,0,AIR)
+B(15,750,15,AIR)
 B(8,88,15,minecraft:glowstone)
 B(8,89,15,minecraft:chain[axis=y,waterlogged=false])
 B(8,90,15,minecraft:glowstone)
