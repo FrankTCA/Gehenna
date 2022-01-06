@@ -24,5 +24,8 @@ SourceBlocks: AIR
 MaxPercentageOutsideSourceBlock: 100
 OutsideSourceBlock: placeAnyway
 
-BR(0,0,-16,true,ObsidianChain1_1x1,NORTH,100,0)
-BR(0,0,0,true,ObsidianChain1_0x0,NORTH,100,0)
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+
+BR(0,0,16,true,ObsidianChain1_1x1,NORTH,100,0)
+BR(-16,0,0,true,ObsidianChain1_0x0,NORTH,100,0)

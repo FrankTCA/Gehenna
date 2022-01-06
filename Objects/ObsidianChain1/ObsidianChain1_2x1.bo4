@@ -24,6 +24,8 @@ SourceBlocks: AIR
 MaxPercentageOutsideSourceBlock: 100
 OutsideSourceBlock: placeAnyway
 
+B(0,750,0,AIR)
+B(15,750,15,AIR)
 B(7,2,13,minecraft:glowstone)
 RB(7,3,12,minecraft:crying_obsidian,10,minecraft:obsidian,100)
 RB(6,3,14,minecraft:crying_obsidian,10,minecraft:obsidian,100)
