@@ -260,7 +260,6 @@ CustomStructure(BasaltOozingMountain2,50.0)
 CustomStructure(BasaltOozingMountain3,50.0)
 CustomObject(BasaltDeadTree1,BasaltDeadTree2,BasaltDeadTree3,BasaltDeadTree4)
 CustomObject(Skull,Skull2,Skull3,Skull4)
-CustomObject(RedGargoyle1,RedGargoyle2,RedGargoyle3,RedGargoyle4,WingedRedGargoyle1,WingedRedGargoyle2,WingedRedGargoyle3,WingedRedGargoyle4)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
