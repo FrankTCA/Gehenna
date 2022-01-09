@@ -259,7 +259,6 @@ CustomStructure(SoulSandOozingMountain1,0.0)
 CustomStructure(SoulSandOozingMountain2,0.0)
 CustomStructure(SoulSandOozingMountain3,0.0)
 CustomObject(Skull,Skull2,Skull3,Skull4)
-CustomObject(RedGargoyle1,RedGargoyle2,RedGargoyle3,RedGargoyle4,WingedRedGargoyle1,WingedRedGargoyle2,WingedRedGargoyle3,WingedRedGargoyle4)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
