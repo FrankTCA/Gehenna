@@ -157,7 +157,7 @@ FoliageColor: #FFFFFF
 
 FoliageColorControl: 
 
-FogColor: #1B4745
+FogColor: #330303
 
 FogDensity: 0.5
 
@@ -215,11 +215,11 @@ CustomStructure(GiantLavaStalacmite2,50.0)
 CustomStructure(GiantLavaStalacmite3,50.0)
 CustomStructure(FleshWall1,100.0)
 CustomStructure(FleshWall2,100.0)
-CustomStructure(SoulSandVolcano1,100.0)
-CustomStructure(SoulSandVolcano2,100.0)
-CustomStructure(SoulSandOozingMountain1,100.0)
-CustomStructure(SoulSandOozingMountain2,100.0)
-CustomStructure(SoulSandOozingMountain3,100.0)
+CustomStructure(FleshVolcano1,100.0)
+CustomStructure(FleshVolcano2,100.0)
+CustomStructure(FleshOozingMountain1,100.0)
+CustomStructure(FleshOozingMountain2,100.0)
+CustomStructure(FleshOozingMountain3,100.0)
 CustomObject(Skull,Skull2,Skull3,Skull4)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
