@@ -1,0 +1,310 @@
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Biome Identity                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+TemplateForBiome: false
+
+BiomeDictTags: HOT, DRY, NETHER
+
+BiomeCategory: plains
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 4
+
+BiomeRarity: 100
+
+BiomeColor: #FF0000
+
+
+#######################################################################
+# |                           Isle biomes                           | #
+#######################################################################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 6
+
+BiomeRarityWhenIsle: 97
+
+#################
+# Border biomes #
+#################
+
+BiomeIsBorder: 
+
+OnlyBorderNear: 
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 8
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 0.1
+
+BiomeVolatility: -2.0
+
+SmoothRadius: 2
+
+CustomHeightControlSmoothRadius: 2
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: 1.0
+
+Volatility2: 0.5
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 100.0, 70.0, 50.0, 30.0, 20.0, 20.0, 10.0, 10.0, -80.0, -100.0, -120.0, -140.0, -180.0, -200.0, -220.0, -240.0, -200.0, -160.0, -120.0, -110.0, -100.0, -90.0, -80.0, -70.0, -60.0, -50.0, -40.0, -30.0, -20.0, -10.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+RiverBiome: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: minecraft:nether_wart_block
+
+SurfaceBlock: minecraft:nether_wart_block
+
+GroundBlock: minecraft:nether_wart_block
+
+UnderWaterSurfaceBlock: minecraft:nether_wart_block
+
+SurfaceAndGroundControl: 
+
+ReplacedBlocks: None
+
+
+#######################################################################
+# |                   Water / Lava & Frozen States                  | #
+#######################################################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: minecraft:lava
+
+IceBlock: minecraft:lava
+
+PackedIceBlock: minecraft:lava
+
+SnowBlock: minecraft:lava
+
+CooledLavaBlock: minecraft:magma_block
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 2.0
+
+UseFrozenOceanTemperature: false
+
+BiomeWetness: 0.0
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+WaterColorControl: 
+
+GrassColor: #FFFFFF
+
+GrassColorControl: 
+
+GrassColorModifier: None
+
+FoliageColor: #FFFFFF
+
+FoliageColorControl: 
+
+FogColor: #1B4745
+
+FogDensity: 0.7
+
+WaterFogColor: #000000
+
+ParticleType: 
+
+ParticleProbability: 0.118093334
+
+Music: minecraft:music.nether.soul_sand_valley
+
+MusicMinDelay: 0
+
+MusicMaxDelay: 0
+
+ReplaceCurrentMusic: true
+
+AmbientSound: minecraft:ambient.soul_sand_valley.loop
+
+MoodSound: minecraft:ambient.soul_sand_valley.mood
+
+MoodSoundDelay: 6000
+
+MoodSearchRange: 8
+
+MoodOffset: 2.0
+
+AdditionsSound: minecraft:ambient.soul_sand_valley.additions
+
+AdditionsTickChance: 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Ore(minecraft:gravel,33,8,100.0,0,255,minecraft:netherrack)
+Ore(minecraft:soul_sand,33,10,100.0,0,79,minecraft:netherrack)
+Ore(minecraft:magma_block,33,10,100.0,0,79,minecraft:netherrack)
+Ore(minecraft:blackstone,33,10,100.0,0,79,minecraft:netherrack)
+Ore(minecraft:nether_quartz_ore,17,20,100.0,0,127,minecraft:netherrack)
+Ore(minecraft:nether_gold_ore,9,20,100.0,0,63,minecraft:netherrack)
+Ore(minecraft:ancient_debris,3,3,100.0,0,25,minecraft:nether_wart_block)
+Liquid(minecraft:lava,10,100.0,8,255,minecraft:netherrack)
+SmallLake(minecraft:lava,2,1.0,8,255)
+SmallLake(minecraft:lava,2,8.0,6,255)
+CustomStructure(GiantSoulSandStalacmite1,100.0)
+CustomStructure(GiantSoulSandStalacmite2,100.0)
+CustomStructure(GiantSoulSandStalacmite3,100.0)
+CustomStructure(GiantSoulSandStalacmite4,100.0)
+CustomStructure(GiantSoulSandStalactite1,100.0)
+CustomStructure(GiantSoulSandStalactite2,100.0)
+CustomStructure(GiantSoulSandStalactite3,100.0)
+CustomStructure(GiantLavaStalacmite1,50.0)
+CustomStructure(GiantLavaStalacmite2,50.0)
+CustomStructure(GiantLavaStalacmite3,50.0)
+CustomStructure(SoulSandWall1,100.0)
+CustomStructure(SoulSandWall2,100.0)
+CustomStructure(UpsideDownSoulSandWall1,100.0)
+CustomStructure(SoulSandVolcano1,100.0)
+CustomStructure(SoulSandVolcano2,100.0)
+CustomStructure(SoulSandOozingMountain1,100.0)
+CustomStructure(SoulSandOozingMountain2,100.0)
+CustomStructure(SoulSandOozingMountain3,100.0)
+CustomObject(Skull,Skull2,Skull3,Skull4)
+Registry(minecraft:glowstone,VEGETAL_DECORATION)
+Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Saplings                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Vanilla structures                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: false
+
+WoodlandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+VillageSize: 6
+
+MineshaftType: normal
+
+MineshaftProbability: 0.004
+
+RareBuildingType: disabled
+
+BuriedTreasureEnabled: false
+
+BuriedTreasureProbability: 0.01
+
+ShipWreckEnabled: false
+
+ShipWreckBeachedEnabled: false
+
+PillagerOutpostEnabled: false
+
+PillagerOutpostSize: 7
+
+BastionRemnantEnabled: false
+
+BastionRemnantSize: 6
+
+NetherFossilEnabled: true
+
+EndCityEnabled: false
+
+RuinedPortalType: normal
+
+OceanRuinsType: disabled
+
+OceanRuinsLargeProbability: 0.3
+
+OceanRuinsClusterProbability: 0.9
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+SpawnWaterAmbientCreatures: []
+
+SpawnMiscCreatures: []
+
+InheritMobsBiomeName: minecraft:soul_sand_valley
+
