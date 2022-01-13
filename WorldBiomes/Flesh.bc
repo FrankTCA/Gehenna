@@ -67,9 +67,9 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 1.0
+Volatility1: 2.0
 
-Volatility2: 0.5
+Volatility2: 2.0
 
 VolatilityWeight1: 1.5
 
@@ -210,15 +210,11 @@ CustomStructure(GiantFleshStalacmite1,100.0)
 CustomStructure(GiantFleshStalacmite2,100.0)
 CustomStructure(GiantFleshStalacmite3,100.0)
 CustomStructure(GiantFleshStalacmite4,100.0)
-CustomStructure(GiantSoulSandStalactite1,100.0)
-CustomStructure(GiantSoulSandStalactite2,100.0)
-CustomStructure(GiantSoulSandStalactite3,100.0)
 CustomStructure(GiantLavaStalacmite1,50.0)
 CustomStructure(GiantLavaStalacmite2,50.0)
 CustomStructure(GiantLavaStalacmite3,50.0)
-CustomStructure(SoulSandWall1,100.0)
-CustomStructure(SoulSandWall2,100.0)
-CustomStructure(UpsideDownSoulSandWall1,100.0)
+CustomStructure(FleshWall1,100.0)
+CustomStructure(FleshWall2,100.0)
 CustomStructure(SoulSandVolcano1,100.0)
 CustomStructure(SoulSandVolcano2,100.0)
 CustomStructure(SoulSandOozingMountain1,100.0)
