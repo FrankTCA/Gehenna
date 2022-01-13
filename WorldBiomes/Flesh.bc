@@ -141,7 +141,7 @@ UseFrozenOceanTemperature: false
 
 BiomeWetness: 0.0
 
-SkyColor: #7BA5FF
+SkyColor: #330303
 
 WaterColor: #FFFFFF
 
@@ -159,7 +159,7 @@ FoliageColorControl:
 
 FogColor: #1B4745
 
-FogDensity: 0.7
+FogDensity: 0.5
 
 WaterFogColor: #000000
 
