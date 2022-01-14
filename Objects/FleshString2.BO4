@@ -1,0 +1,133 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Frank
+
+Description: String of flesh
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 1
+
+SpawnHeight: randomY
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 25
+
+MaxHeight: 30
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: NETHER_WART_BLOCK
+
+ReplaceWithGroundBlock: NETHER_WART_BLOCK
+
+ReplaceWithStoneBlock: NETHER_WART_BLOCK
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,144,true,FleshString2_C0_R9,NORTH,100.0,0)
+Branch(16,0,128,true,FleshString2_C1_R8,NORTH,100.0,0)
+Branch(32,0,112,true,FleshString2_C2_R7,NORTH,100.0,0)
+Branch(48,0,96,true,FleshString2_C3_R6,NORTH,100.0,0)
+Branch(64,0,80,true,FleshString2_C4_R5,NORTH,100.0,0)
+Branch(80,0,64,true,FleshString2_C5_R4,NORTH,100.0,0)
+Branch(96,0,48,true,FleshString2_C6_R3,NORTH,100.0,0)
+Branch(112,0,32,true,FleshString2_C7_R2,NORTH,100.0,0)
+Branch(128,0,16,true,FleshString2_C8_R1,NORTH,100.0,0)
+Branch(144,0,0,true,FleshString2_C9_R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

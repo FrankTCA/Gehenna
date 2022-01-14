@@ -1,0 +1,204 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Unknown
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: false
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: false
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: true
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: true
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-8,31,-7,minecraft:nether_wart_block)
+B(-8,30,-6,minecraft:nether_wart_block)
+B(-8,31,-6,minecraft:nether_wart_block)
+B(-8,32,-6,minecraft:nether_wart_block)
+B(-8,31,-5,minecraft:nether_wart_block)
+B(-7,32,-7,minecraft:nether_wart_block)
+B(-7,31,-6,minecraft:nether_wart_block)
+B(-7,32,-6,minecraft:nether_wart_block)
+B(-7,33,-6,minecraft:nether_wart_block)
+B(-7,32,-5,minecraft:nether_wart_block)
+B(-6,33,-7,minecraft:nether_wart_block)
+B(-6,32,-6,minecraft:nether_wart_block)
+B(-6,33,-6,minecraft:nether_wart_block)
+B(-6,34,-6,minecraft:nether_wart_block)
+B(-6,33,-5,minecraft:nether_wart_block)
+B(-5,34,-7,minecraft:nether_wart_block)
+B(-5,33,-6,minecraft:nether_wart_block)
+B(-5,34,-6,minecraft:nether_wart_block)
+B(-5,35,-6,minecraft:nether_wart_block)
+B(-5,34,-5,minecraft:nether_wart_block)
+B(-4,35,-7,minecraft:nether_wart_block)
+B(-4,34,-6,minecraft:nether_wart_block)
+B(-4,35,-6,minecraft:nether_wart_block)
+B(-4,36,-6,minecraft:nether_wart_block)
+B(-4,35,-5,minecraft:nether_wart_block)
+B(-3,36,-7,minecraft:nether_wart_block)
+B(-3,35,-6,minecraft:nether_wart_block)
+B(-3,36,-6,minecraft:nether_wart_block)
+B(-3,37,-6,minecraft:nether_wart_block)
+B(-3,36,-5,minecraft:nether_wart_block)
+B(-2,37,-7,minecraft:nether_wart_block)
+B(-2,36,-6,minecraft:nether_wart_block)
+B(-2,37,-6,minecraft:nether_wart_block)
+B(-2,38,-6,minecraft:nether_wart_block)
+B(-2,37,-5,minecraft:nether_wart_block)
+B(-1,38,-7,minecraft:nether_wart_block)
+B(-1,37,-6,minecraft:nether_wart_block)
+B(-1,38,-6,minecraft:nether_wart_block)
+B(-1,39,-6,minecraft:nether_wart_block)
+B(-1,38,-5,minecraft:nether_wart_block)
+B(0,39,-7,minecraft:nether_wart_block)
+B(0,38,-6,minecraft:nether_wart_block)
+B(0,39,-6,minecraft:nether_wart_block)
+B(0,40,-6,minecraft:nether_wart_block)
+B(0,39,-5,minecraft:nether_wart_block)
+B(1,40,-7,minecraft:nether_wart_block)
+B(1,39,-6,minecraft:nether_wart_block)
+B(1,40,-6,minecraft:nether_wart_block)
+B(1,41,-6,minecraft:nether_wart_block)
+B(1,40,-5,minecraft:nether_wart_block)
+B(2,41,-7,minecraft:nether_wart_block)
+B(2,40,-6,minecraft:nether_wart_block)
+B(2,41,-6,minecraft:nether_wart_block)
+B(2,42,-6,minecraft:nether_wart_block)
+B(2,41,-5,minecraft:nether_wart_block)
+B(3,42,-7,minecraft:nether_wart_block)
+B(3,41,-6,minecraft:nether_wart_block)
+B(3,42,-6,minecraft:nether_wart_block)
+B(3,43,-6,minecraft:nether_wart_block)
+B(3,42,-5,minecraft:nether_wart_block)
+B(4,43,-7,minecraft:nether_wart_block)
+B(4,42,-6,minecraft:nether_wart_block)
+B(4,43,-6,minecraft:nether_wart_block)
+B(4,44,-6,minecraft:nether_wart_block)
+B(4,43,-5,minecraft:nether_wart_block)
+B(5,44,-7,minecraft:nether_wart_block)
+B(5,43,-6,minecraft:nether_wart_block)
+B(5,44,-6,minecraft:nether_wart_block)
+B(5,45,-6,minecraft:nether_wart_block)
+B(5,44,-5,minecraft:nether_wart_block)
+B(6,45,-7,minecraft:nether_wart_block)
+B(6,44,-6,minecraft:nether_wart_block)
+B(6,45,-6,minecraft:nether_wart_block)
+B(6,46,-6,minecraft:nether_wart_block)
+B(6,45,-5,minecraft:nether_wart_block)
+B(7,46,-7,minecraft:nether_wart_block)
+B(7,45,-6,minecraft:nether_wart_block)
+B(7,46,-6,minecraft:nether_wart_block)
+B(7,47,-6,minecraft:nether_wart_block)
+B(7,46,-5,minecraft:nether_wart_block)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(16,0,0,true,FleshString1_C3_R0,NORTH,100.0,0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
