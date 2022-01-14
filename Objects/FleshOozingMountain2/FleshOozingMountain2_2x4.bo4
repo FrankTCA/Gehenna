@@ -1,0 +1,95 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: true
+Tree: false
+Frequency: 10
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 50
+MaxHeight: 65
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+ReplaceBelow: NETHER_WART_BLOCK
+ReplaceWithBiomeBlocks: false
+ReplaceWithGroundBlock: NETHER_WART_BLOCK
+ReplaceWithSurfaceBlock: NETHER_WART_BLOCK
+ReplaceWithStoneBlock: NETHER_WART_BLOCK
+SmoothRadius: 30
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: NETHER_WART_BLOCK
+SmoothingGroundBlock: NETHER_WART_BLOCK
+
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+B(10,0,0,minecraft:nether_wart_block)
+B(11,0,0,minecraft:nether_wart_block)
+B(12,0,0,minecraft:nether_wart_block)
+B(13,0,0,minecraft:nether_wart_block)
+B(14,0,0,minecraft:nether_wart_block)
+B(15,0,0,minecraft:nether_wart_block)
+B(10,0,1,minecraft:nether_wart_block)
+B(11,0,1,minecraft:nether_wart_block)
+B(12,0,1,minecraft:nether_wart_block)
+B(13,0,1,minecraft:nether_wart_block)
+B(14,0,1,minecraft:nether_wart_block)
+B(15,0,1,minecraft:nether_wart_block)
+B(11,0,2,minecraft:nether_wart_block)
+B(12,0,2,minecraft:nether_wart_block)
+B(13,0,2,minecraft:nether_wart_block)
+B(14,0,2,minecraft:nether_wart_block)
+B(15,0,2,minecraft:nether_wart_block)
+B(12,0,3,minecraft:nether_wart_block)
+B(13,0,3,minecraft:nether_wart_block)
+B(14,0,3,minecraft:nether_wart_block)
+B(15,0,3,minecraft:nether_wart_block)
+B(0,0,6,minecraft:nether_wart_block)
+B(1,0,6,minecraft:nether_wart_block)
+B(2,0,6,minecraft:nether_wart_block)
+B(3,0,6,minecraft:nether_wart_block)
+B(4,0,6,minecraft:nether_wart_block)
+B(11,1,0,minecraft:nether_wart_block)
+B(12,1,0,minecraft:nether_wart_block)
+B(13,1,0,minecraft:nether_wart_block)
+B(14,1,0,minecraft:nether_wart_block)
+B(15,1,0,minecraft:nether_wart_block)
+B(11,1,1,minecraft:nether_wart_block)
+B(12,1,1,minecraft:nether_wart_block)
+B(13,1,1,minecraft:nether_wart_block)
+B(14,1,1,minecraft:nether_wart_block)
+B(15,1,1,minecraft:nether_wart_block)
+B(12,1,2,minecraft:nether_wart_block)
+B(13,1,2,minecraft:nether_wart_block)
+B(14,1,2,minecraft:nether_wart_block)
+B(15,1,2,minecraft:nether_wart_block)
+B(0,1,6,minecraft:nether_wart_block)
+B(1,1,6,minecraft:nether_wart_block)
+B(2,1,6,minecraft:nether_wart_block)
+B(3,1,6,minecraft:nether_wart_block)
+B(4,1,6,minecraft:nether_wart_block)
+B(12,2,0,minecraft:nether_wart_block)
+B(13,2,0,minecraft:nether_wart_block)
+B(14,2,0,minecraft:nether_wart_block)
+B(15,2,0,minecraft:nether_wart_block)
+B(13,2,1,minecraft:nether_wart_block)
+B(14,2,1,minecraft:nether_wart_block)
+B(15,2,1,minecraft:nether_wart_block)
+
+BR(16,0,0,true,FleshOozingMountain2_3x4,NORTH,100,0)
+BR(-16,0,0,true,FleshOozingMountain2_1x4,NORTH,100,0)
