@@ -279,6 +279,8 @@ CustomStructure(ObsidianOozingMountain3,0.0)
 CustomStructure(ObsidianVolcano1,0.0)
 CustomStructure(ObsidianVolcano2,0.0)
 CustomObject(Skull,Skull2,Skull3,Skull4)
+CustomObject(SkullPole1,SkullPole3,SkullPole5,SkullPole7,SkullPole9,SkullPole11)
+CustomObject(ChainSkull1)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
