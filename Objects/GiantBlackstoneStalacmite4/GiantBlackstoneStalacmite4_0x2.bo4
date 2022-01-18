@@ -1,0 +1,39 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: true
+Tree: false
+Frequency: 10
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 50
+MaxHeight: 65
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+ReplaceBelow: BLACKSTONE
+ReplaceWithBiomeBlocks: false
+ReplaceWithGroundBlock: BLACKSTONE
+ReplaceWithSurfaceBlock: BLACKSTONE
+ReplaceWithStoneBlock: BLACKSTONE
+SmoothRadius: 30
+SmoothingSurfaceBlock: BLACKSTONE
+SmoothingGroundBlock: BLACKSTONE
+
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+
+BR(16,0,0,true,GiantBlackstoneStalacmite4_1x2,NORTH,100,0)
