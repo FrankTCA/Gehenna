@@ -141,6 +141,9 @@ Ore(minecraft:ancient_debris,3,3,100.0,0,25,minecraft:netherrack)
 Liquid(minecraft:lava,10,100.0,8,255,minecraft:netherrack)
 SmallLake(minecraft:lava,2,1.0,8,255)
 SmallLake(minecraft:lava,2,8.0,6,255)
+CustomObject(SkullPole1,SkullPole3,SkullPole5,SkullPole7,SkullPole9,SkullPole11)
+CustomObject(Skull,Skull2,Skull3,Skull4)
+CustomObject(ChainSkull1)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
