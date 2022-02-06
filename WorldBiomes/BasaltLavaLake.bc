@@ -1,13 +1,16 @@
 
+
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                          Biome Identity                         | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-TemplateForBiome: true
+TemplateForBiome: false
 
-TemplateBiomeType: Nether
+BiomeDictTags: HOT, DRY, NETHER
+
+BiomeCategory: plains
 
 
 #######################################################################
@@ -27,9 +30,9 @@ BiomeColor: #FF0000
 # |                           Isle biomes                           | #
 #######################################################################
 
-IsleInBiome: 
+IsleInBiome: BasaltForest,GlowstoneForest,tagNether
 
-BiomeSizeWhenIsle: 6
+BiomeSizeWhenIsle: 4
 
 BiomeRarityWhenIsle: 97
 
@@ -64,9 +67,9 @@ MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
-Volatility1: 2.0
+Volatility1: 0.7
 
-Volatility2: 2.0
+Volatility2: 0.3
 
 VolatilityWeight1: 1.5
 
@@ -83,7 +86,7 @@ CustomHeightControl: 100.0, 70.0, 50.0, 30.0, 20.0, 20.0, 10.0, 10.0, -80.0, -10
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-RiverBiome: River
+RiverBiome: 
 
 
 #######################################################################
@@ -91,6 +94,14 @@ RiverBiome: River
 # |                              Blocks                             | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
+
+StoneBlock: minecraft:blackstone
+
+SurfaceBlock: minecraft:lava
+
+GroundBlock: minecraft:basalt
+
+UnderWaterSurfaceBlock: minecraft:netherrack
 
 SurfaceAndGroundControl: 
 
@@ -124,6 +135,60 @@ CooledLavaBlock: minecraft:magma_block
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+BiomeTemperature: 2.0
+
+UseFrozenOceanTemperature: false
+
+BiomeWetness: 0.0
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+WaterColorControl: 
+
+GrassColor: #FFFFFF
+
+GrassColorControl: 
+
+GrassColorModifier: None
+
+FoliageColor: #FFFFFF
+
+FoliageColorControl: 
+
+FogColor: #685F70
+
+FogDensity: 0.7
+
+WaterFogColor: #000000
+
+ParticleType: 
+
+ParticleProbability: 0.118093334
+
+Music: minecraft:music.nether.basalt_deltas
+
+MusicMinDelay: 0
+
+MusicMaxDelay: 0
+
+ReplaceCurrentMusic: true
+
+AmbientSound: minecraft:ambient.basalt_deltas.loop
+
+MoodSound: minecraft:ambient.basalt_deltas.mood
+
+MoodSoundDelay: 6000
+
+MoodSearchRange: 8
+
+MoodOffset: 2.0
+
+AdditionsSound: minecraft:ambient.basalt_deltas.additions
+
+AdditionsTickChance: 0.0
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -141,13 +206,125 @@ Ore(minecraft:ancient_debris,3,3,100.0,0,25,minecraft:netherrack)
 Liquid(minecraft:lava,10,100.0,8,255,minecraft:netherrack)
 SmallLake(minecraft:lava,2,1.0,8,255)
 SmallLake(minecraft:lava,2,8.0,6,255)
-CustomObject(SkullPole1,SkullPole3,SkullPole5,SkullPole7,SkullPole9,SkullPole11)
+CustomStructure(GiantBasaltStalacmite1,100.0)
+CustomStructure(GiantBasaltStalacmite2,100.0)
+CustomStructure(GiantBasaltStalacmite3,100.0)
+CustomStructure(GiantBasaltStalacmite4,100.0)
+CustomStructure(GiantBasaltStalactite1,100.0)
+CustomStructure(GiantBasaltStalacmite2,100.0)
+CustomStructure(GiantBasaltStalactite3,100.0)
+CustomStructure(GiantLavaStalacmite1,50.0)
+CustomStructure(GiantLavaStalacmite2,50.0)
+CustomStructure(GiantLavaStalacmite3,50.0)
+CustomStructure(BasaltWall1,100.0)
+CustomStructure(BasaltWall2,100.0)
+CustomStructure(UpsideDownBasaltWall1,100.0)
+CustomStructure(BasaltVolcano1,100.0)
+CustomStructure(BasaltVolcano2,100.0)
+CustomStructure(BlackstoneColleseum1,1.0)
+CustomStructure(BasaltOozingMountain1,100.0)
+CustomStructure(BasaltOozingMountain2,100.0)
+CustomStructure(BasaltOozingMountain3,100.0)
+CustomStructure(GiantObsidianStalacmite1,0.0)
+CustomStructure(GiantObsidianStalacmite2,0.0)
+CustomStructure(GiantObsidianStalacmite3,0.0)
+CustomStructure(GiantObsidianStalacmite4,0.0)
+CustomStructure(ObsidianOozingMountain1,0.0)
+CustomStructure(ObsidianOozingMountain2,0.0)
+CustomStructure(ObsidianOozingMountain3,0.0)
+CustomStructure(ObsidianVolcano1,0.0)
+CustomStructure(ObsidianVolcano2,0.0)
 CustomObject(Skull,Skull2,Skull3,Skull4)
+CustomObject(SkullPole1,SkullPole3,SkullPole5,SkullPole7,SkullPole9,SkullPole11)
 CustomObject(ChainSkull1)
+BasaltColumn(minecraft:basalt,3,60.0,5,3,5,5,1,255,minecraft:basalt)
+#Registry(minecraft:small_basalt_columns)
+#Registry(minecraft:large_basalt_columns)
+#Registry(minecraft:basalt_blobs)
+#Registry(minecraft:blackstone_blobs)
+#Registry(minecraft:delta)
+#Registry(minecraft:spring_delta)
+#Registry(minecraft:glowstone,VEGETAL_DECORATION)
+#Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
+CustomObject(BasaltLakeSlope,BasaltLakeSlope2)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                             Saplings                            | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Vanilla structures                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: false
+
+WoodlandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+VillageSize: 6
+
+MineshaftType: normal
+
+MineshaftProbability: 0.004
+
+RareBuildingType: disabled
+
+BuriedTreasureEnabled: false
+
+BuriedTreasureProbability: 0.01
+
+ShipWreckEnabled: false
+
+ShipWreckBeachedEnabled: false
+
+PillagerOutpostEnabled: false
+
+PillagerOutpostSize: 7
+
+BastionRemnantEnabled: false
+
+BastionRemnantSize: 6
+
+NetherFossilEnabled: false
+
+EndCityEnabled: false
+
+RuinedPortalType: normal
+
+OceanRuinsType: disabled
+
+OceanRuinsLargeProbability: 0.3
+
+OceanRuinsClusterProbability: 0.9
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+SpawnWaterAmbientCreatures: []
+
+SpawnMiscCreatures: []
+
+InheritMobsBiomeName: minecraft:basalt_delta
 
