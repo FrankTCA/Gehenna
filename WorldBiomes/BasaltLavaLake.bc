@@ -32,9 +32,9 @@ BiomeColor: #FF0000
 
 IsleInBiome: BasaltForest,GlowstoneForest,tagNether
 
-BiomeSizeWhenIsle: 4
+BiomeSizeWhenIsle: 8
 
-BiomeRarityWhenIsle: 97
+BiomeRarityWhenIsle: 90
 
 #################
 # Border biomes #
