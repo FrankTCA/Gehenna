@@ -1,0 +1,55 @@
+Author: Frank
+
+Description: Small quartz spike
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 5
+Rarity: 100.0
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+ExtrudeMode: None
+ExtrudeThroughBlocks: minecraft:air
+
+MinHeight: 50
+MaxHeight: 65
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 20
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+RB(-1,0,-1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(-1,0,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(-1,1,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(-1,2,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(-1,0,1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,0,-1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,1,-1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,2,-1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,0,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,1,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,2,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,3,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,4,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,0,1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,1,1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(0,2,1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(1,0,-1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(1,0,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(1,1,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(1,2,0,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+RB(1,0,1,minecraft:chiseled_quartz_block,10,minecraft:quartz_pillar,10,minecraft:smooth_quartz_block,10,minecraft:quartz_block,100)
+
+BCN(0,-1,0,minecraft:air)
+
