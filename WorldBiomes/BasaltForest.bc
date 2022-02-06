@@ -295,6 +295,7 @@ CustomObject(Skull,Skull2,Skull3,Skull4)
 CustomObject(ChainSkull1)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
+CustomObject(BasaltLakeSlope,BasaltLakeSlope2,BasaltLakeSlope3,BasaltLakeSlope4)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

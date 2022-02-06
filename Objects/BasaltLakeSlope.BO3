@@ -22,13 +22,13 @@ SettingsMode: WriteDisable
 
 Tree: true
 
-Frequency: 100000
+Frequency: 10000000
 
 Rarity: 100
 
-MaxSpawn: 100000
+MaxSpawn: 10000000
 
-RotateRandomly: true
+RotateRandomly: false
 
 SpawnHeight: randomY
 
