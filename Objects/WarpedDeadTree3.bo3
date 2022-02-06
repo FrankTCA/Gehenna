@@ -1,0 +1,52 @@
+Author: Frank
+
+Description: Dead basalt tree - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 10
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+ExtrudeMode: None
+ExtrudeThroughBlocks: minecraft:air
+
+MinHeight: 50
+MaxHeight: 65
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+B(0,2,-1,minecraft:warped_stem[axis=z])
+B(0,3,-1,minecraft:warped_stem)
+B(0,2,0,minecraft:warped_stem[axis=x])
+B(1,2,0,minecraft:warped_stem[axis=x])
+B(2,0,0,minecraft:warped_stem)
+B(2,1,0,minecraft:warped_stem)
+B(2,2,0,minecraft:warped_stem)
+B(2,3,0,minecraft:warped_stem)
+B(2,4,0,minecraft:warped_stem)
+B(2,5,0,minecraft:warped_stem)
+B(2,6,0,minecraft:warped_stem)
+B(2,7,0,minecraft:warped_stem)
+B(2,8,0,minecraft:warped_stem)
+B(2,6,1,minecraft:warped_stem[axis=z])
+B(3,4,-1,minecraft:warped_stem[axis=z])
+B(3,4,0,minecraft:warped_stem[axis=x])
+B(3,6,1,minecraft:warped_stem[axis=x])
+B(3,6,2,minecraft:warped_stem[axis=z])
+
+BCN(0,-1,0,AIR)
+

@@ -1,0 +1,122 @@
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: Frank
+
+Description: Dead basalt tree - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+IsOTGPlus: false
+Tree: true
+Frequency: 1
+Rarity: 10
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+ExtrudeMode: None
+ExtrudeThroughBlocks: minecraft:air
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 50
+MaxHeight: 65
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+B(-3,4,1,minecraft:crimson_stem[axis=x])
+B(-2,4,1,minecraft:crimson_stem[axis=x])
+B(-2,3,2,minecraft:crimson_stem)
+B(-2,4,2,minecraft:crimson_stem[axis=z])
+B(-2,8,2,minecraft:crimson_stem[axis=x])
+B(-2,3,3,minecraft:crimson_stem[axis=z])
+B(-1,8,-1,minecraft:crimson_stem[axis=x])
+B(-1,9,-1,minecraft:crimson_stem)
+B(-1,4,1,minecraft:crimson_stem[axis=x])
+B(-1,9,1,minecraft:crimson_stem[axis=x])
+B(-1,8,2,minecraft:crimson_stem)
+B(-1,9,2,minecraft:crimson_stem[axis=z])
+B(0,4,-2,minecraft:crimson_stem[axis=z])
+B(0,4,-1,minecraft:crimson_stem[axis=z])
+B(0,8,-1,minecraft:crimson_stem[axis=z])
+B(0,4,0,minecraft:crimson_stem[axis=z])
+B(0,8,0,minecraft:crimson_stem[axis=z])
+B(0,0,1,minecraft:crimson_stem)
+B(0,1,1,minecraft:crimson_stem)
+B(0,2,1,minecraft:crimson_stem)
+B(0,3,1,minecraft:crimson_stem)
+B(0,4,1,minecraft:crimson_stem)
+B(0,5,1,minecraft:crimson_stem)
+B(0,6,1,minecraft:crimson_stem)
+B(0,7,1,minecraft:crimson_stem)
+B(0,8,1,minecraft:crimson_stem)
+B(0,9,1,minecraft:crimson_stem)
+B(0,10,1,minecraft:crimson_stem)
+B(0,4,2,minecraft:crimson_stem[axis=z])
+B(0,4,3,minecraft:crimson_stem[axis=z])
+B(0,4,4,minecraft:crimson_stem[axis=z])
+B(1,4,1,minecraft:crimson_stem[axis=x])
+B(1,9,1,minecraft:crimson_stem[axis=x])
+B(1,4,3,minecraft:crimson_stem[axis=x])
+B(1,5,3,minecraft:crimson_stem)
+B(1,5,4,minecraft:crimson_stem[axis=z])
+B(1,6,4,minecraft:crimson_stem)
+B(2,4,1,minecraft:crimson_stem[axis=x])
+B(2,9,1,minecraft:crimson_stem[axis=x])
+B(2,8,2,minecraft:crimson_stem)
+B(2,9,2,minecraft:crimson_stem[axis=z])
+B(2,10,2,minecraft:crimson_stem)
+B(2,9,3,minecraft:crimson_stem[axis=z])
+B(2,6,4,minecraft:crimson_stem[axis=x])
+B(2,9,4,minecraft:crimson_stem[axis=z])
+B(2,10,4,minecraft:crimson_stem)
+B(2,6,5,minecraft:crimson_stem[axis=z])
+B(2,7,5,minecraft:crimson_stem)
+B(3,4,0,minecraft:crimson_stem[axis=z])
+B(3,5,0,minecraft:crimson_stem)
+B(3,4,1,minecraft:crimson_stem[axis=x])
+B(4,6,-1,minecraft:crimson_stem[axis=z])
+B(4,5,0,minecraft:crimson_stem[axis=x])
+B(4,6,0,minecraft:crimson_stem)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BCN(0,-1,0,AIR)
+

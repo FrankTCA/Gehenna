@@ -1,0 +1,48 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: true
+Tree: false
+Frequency: 10
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 50
+MaxHeight: 65
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+ReplaceBelow: BLACKSTONE
+ReplaceWithBiomeBlocks: false
+ReplaceWithGroundBlock: BLACKSTONE
+ReplaceWithSurfaceBlock: BLACKSTONE
+ReplaceWithStoneBlock: BLACKSTONE
+SmoothRadius: 30
+SmoothingSurfaceBlock: BLACKSTONE
+SmoothingGroundBlock: BLACKSTONE
+
+B(0,750,0,AIR)
+B(15,750,15,AIR)
+B(15,0,0,minecraft:blackstone)
+B(15,0,6,minecraft:blackstone)
+B(15,0,7,minecraft:blackstone)
+B(15,0,8,minecraft:blackstone)
+B(15,1,0,minecraft:blackstone)
+B(15,1,6,minecraft:blackstone)
+B(15,1,7,minecraft:blackstone)
+B(15,1,8,minecraft:blackstone)
+B(15,2,0,minecraft:blackstone)
+
+BR(16,0,0,true,BlackstoneWall1_1x9,NORTH,100,0)
