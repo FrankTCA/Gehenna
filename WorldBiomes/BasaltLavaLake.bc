@@ -30,11 +30,11 @@ BiomeColor: #FF0000
 # |                           Isle biomes                           | #
 #######################################################################
 
-IsleInBiome: BasaltForest,GlowstoneForest,tagNether
+IsleInBiome: BasaltForest,GlowstoneForest,tagNether,ShroomlightForest,QuartzSpikes
 
-BiomeSizeWhenIsle: 4
+BiomeSizeWhenIsle: 8
 
-BiomeRarityWhenIsle: 97
+BiomeRarityWhenIsle: 90
 
 #################
 # Border biomes #
