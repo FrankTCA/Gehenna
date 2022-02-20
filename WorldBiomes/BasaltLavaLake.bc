@@ -30,7 +30,7 @@ BiomeColor: #FF0000
 # |                           Isle biomes                           | #
 #######################################################################
 
-IsleInBiome: BasaltForest,GlowstoneForest,tagNether,ShroomlightForest,QuartzSpikes,Graveyard
+IsleInBiome: BasaltDelta,CrimsonForest,NetherWastes,SoulSandValley,WarpedForest,BasaltForest,GlowstoneForest,tagNether,ShroomlightForest,QuartzSpikes,Graveyard
 
 BiomeSizeWhenIsle: 8
 
