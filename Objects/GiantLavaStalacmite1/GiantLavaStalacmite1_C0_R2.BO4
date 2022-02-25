@@ -107,11 +107,6 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-B(-5,15,3,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
-B(-5,16,3,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
-B(-3,14,3,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
-B(-3,15,3,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
-B(-3,16,3,minecraft:vine[east=false,north=true,south=false,up=false,west=false])
 B(-1,0,-1,minecraft:lava[level=6])
 B(-1,0,0,minecraft:lava[level=6])
 B(0,0,-3,minecraft:lava[level=6])
