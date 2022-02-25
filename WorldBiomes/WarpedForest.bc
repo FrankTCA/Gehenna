@@ -277,6 +277,7 @@ Registry(minecraft:warped_fungi,VEGETAL_DECORATION)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 Registry(minecraft:twisting_vines,VEGETAL_DECORATION)
+CustomObject(BasaltLakeSlope,BasaltLakeSlope2,BasaltLakeSlope3,BasaltLakeSlope4)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

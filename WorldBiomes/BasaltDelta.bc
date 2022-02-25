@@ -257,6 +257,7 @@ Registry(minecraft:delta)
 Registry(minecraft:spring_delta)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
+CustomObject(BasaltLakeSlope,BasaltLakeSlope2,BasaltLakeSlope3,BasaltLakeSlope4)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

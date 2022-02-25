@@ -265,6 +265,7 @@ Registry(minecraft:crimson_fungi,VEGETAL_DECORATION)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 Registry(minecraft:weeping_vines,VEGETAL_DECORATION)
+CustomObject(BasaltLakeSlope,BasaltLakeSlope2,BasaltLakeSlope3,BasaltLakeSlope4)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
