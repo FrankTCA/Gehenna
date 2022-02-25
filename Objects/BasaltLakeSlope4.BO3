@@ -42,7 +42,7 @@ SpawnHeightVariance: 0
 
 MinHeight: 50
 
-MaxHeight: 65
+MaxHeight: 90
 
 ######################
 # Extrusion settings #

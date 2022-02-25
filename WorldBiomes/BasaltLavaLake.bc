@@ -97,7 +97,7 @@ RiverBiome:
 
 StoneBlock: minecraft:blackstone
 
-SurfaceBlock: minecraft:lava
+SurfaceBlock: minecraft:basalt
 
 GroundBlock: minecraft:basalt
 
@@ -197,6 +197,7 @@ AdditionsTickChance: 0.0
 #######################################################################
 
 CustomObject(BasaltLakeSlope,BasaltLakeSlope2,BasaltLakeSlope3,BasaltLakeSlope4)
+Registry(minecraft:delta)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
