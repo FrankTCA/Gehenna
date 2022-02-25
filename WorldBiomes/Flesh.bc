@@ -103,6 +103,8 @@ GroundBlock: minecraft:nether_wart_block
 
 UnderWaterSurfaceBlock: minecraft:nether_wart_block
 
+DeepslateBlock: minecraft:netherrack
+
 SurfaceAndGroundControl: 
 
 ReplacedBlocks: None

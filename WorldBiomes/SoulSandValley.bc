@@ -103,6 +103,8 @@ GroundBlock: minecraft:soul_soil
 
 UnderWaterSurfaceBlock: minecraft:netherrack
 
+DeepslateBlock: minecraft:netherrack
+
 SurfaceAndGroundControl: 
 
 ReplacedBlocks: None
