@@ -1,0 +1,31 @@
+Author: Bo3 BulkEdit
+
+Description: Converted Schematic - Modified by Bo3BulkEdit
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+IsOTGPlus: true
+Tree: false
+Frequency: 3
+Rarity: 100
+RotateRandomly: true
+SpawnHeight: randomY
+SpawnHeightOffset: 0
+SpawnHeightVariance: 0
+MaxBranchDepth: 10
+ExcludedBiomes: All
+
+MinHeight: 5
+MaxHeight: 20
+
+SourceBlocks: AIR
+MaxPercentageOutsideSourceBlock: 100
+OutsideSourceBlock: placeAnyway
+
+RB(14,90,15,minecraft:air,20,minecraft:coal_ore,3,minecraft:gold_ore,1,minecraft:basalt[axis=y],100)
+RB(15,90,15,minecraft:air,20,minecraft:coal_ore,3,minecraft:gold_ore,1,minecraft:basalt[axis=y],100)
+RB(14,92,15,minecraft:air,20,minecraft:coal_ore,3,minecraft:gold_ore,1,minecraft:basalt[axis=y],100)
+RB(15,93,15,minecraft:air,20,minecraft:coal_ore,3,minecraft:gold_ore,1,minecraft:basalt[axis=y],100)
+
