@@ -226,7 +226,6 @@ CustomStructure(FleshString1,100.0)
 CustomStructure(FleshString2,100.0)
 CustomObject(RedEye,BlueEye,BrownEye,GreenEye)
 CustomObject(Skull,Skull2,Skull3,Skull4)
-CustomObject(SmallDungeon)
 Registry(minecraft:glowstone,VEGETAL_DECORATION)
 Registry(minecraft:glowstone_extra,VEGETAL_DECORATION)
 
