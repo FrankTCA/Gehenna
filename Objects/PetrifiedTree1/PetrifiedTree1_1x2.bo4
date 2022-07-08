@@ -10,7 +10,7 @@ IsOTGPlus: true
 Tree: false
 Frequency: 3
 Rarity: 100
-RotateRandomly: false
+RotateRandomly: true
 SpawnHeight: randomY
 SpawnHeightOffset: 0
 SpawnHeightVariance: 0
