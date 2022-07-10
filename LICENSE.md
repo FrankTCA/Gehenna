@@ -20,7 +20,7 @@ You may not redistribute or resell the software.
 
 ### Source Code
 
-This product does provide the source code, but it is NOT legal to attempt to modify it, or attempt to read it using a program other than an official version of OpenTerrainGenerator, using the source code available at https://github.com/PG85/OpenTerrainGenerator, without express written permission provided beforehand.
+This product does provide the source code, but it is NOT legal to attempt to modify it, or attempt to read it using a program other than an official version of OpenTerrainGenerator, using the source code available at https://github.com/PG85/OpenTerrainGenerator, or an unofficial modified version of OpenTerrainGenerator released by us, without express written permission provided beforehand.
 
 ### Warranty
 
